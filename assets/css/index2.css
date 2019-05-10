@@ -1,0 +1,315 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fdfdfd;
+}
+
+header {
+	padding: 30px;
+	border-bottom: 1px solid #0000001c;
+	background-color: white;
+
+}
+
+.menu-main-menu-container {
+	width: 100%;
+	text-align: center;
+}
+
+.menu-item {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+footer {
+	border-top: 1px solid #0000001c;
+	background-color: #16171e !important;
+}
+
+.white {
+	color: white;
+}
+
+a.dropdown-item.in_progress {
+	color: #ababab;
+}
+
+.logo {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1088px) {
+
+	.navbar,
+	.navbar-menu,
+	.navbar-start,
+	.navbar-end {
+		align-items: stretch;
+		display: flex;
+		margin: auto;
+	}
+}
+
+a {
+	color: #1e405d;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover {
+	color: #4cacb1;
+}
+
+a.button.boxbutton:hover {
+	background-color: #4cacb1;
+	color: white;
+}
+
+/* .boxbut_news {
+	text-align: center;
+} */
+
+footer h7 {
+	font-weight: 500;
+}
+
+footer .link {
+	width: 100%;
+	font-size: 14px;
+	display: inline-block;
+	color: white;
+}
+
+.size_video {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.social_link_footer {
+	font-size: 22px;
+	margin-top: 1em;
+	margin-bottom: 4em;
+
+}
+
+.logo_footer {
+	font-weight: 500;
+	font-size: 30px;
+	color: white;
+}
+
+.h3_footer {
+	color: white;
+}
+
+a.style_border {
+	border: 1px solid white;
+	padding: 17px;
+}
+
+svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
+	color: white;
+	font-size: 20px;
+}
+
+
+
+svg.svg-inline--fa.fa-instagram.fa-w-14 {
+	color: white;
+	font-size: 20px;
+}
+
+svg.svg-inline--fa.fa-twitter.fa-w-16 {
+	color: white;
+	font-size: 20px;
+}
+
+svg.svg-inline--fa.fa-linkedin.fa-w-14 {
+	color: white;
+	font-size: 20px;
+}
+
+h8 {
+	font-weight: 600;
+}
+
+.maintenance {
+	width: 100px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.image.is-64x64 {
+	height: 64px;
+	width: 64px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.active {
+	color: #4cacb1 !important;
+}
+
+.equal {
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	margin: auto;
+	position: relative;
+	font-weight: 600 !important;
+	font-size: xx-large !important;
+}
+
+.equal:hover {
+
+	transform: scale(1.1);
+	transition: .5s ease;
+}
+
+#login_form {
+	height: 65vh;
+}
+
+
+.grey_bakcround_contact {
+	background-color: #F9F9F9;
+}
+
+.margin_title {
+	margin-bottom: 50px !important;
+}
+
+.social_link_footer {
+	font-size: 22px;
+}
+
+header {
+	padding: 0px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1088px) {
+
+	.margin_footer {
+		margin: 0 50px;
+	}
+
+}
+
+
+/* Box blog */
+
+.box.size_blog {
+	width: 23em;
+	display: flex;
+	min-height: 30em;
+	justify-content: center;
+	margin: auto;
+}
+
+.blog_space {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.infos {
+	padding: 1.5rem;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+	width: 100%;
+	max-height: 242px;
+	min-height: 242px;
+
+}
+
+.article_custom {
+	width: 100%;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+form#commentform {
+	background-color: #f3f3f3;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.content a {
+	color: #4cacb1;
+}
+
+.content a:hover {
+	color: #1e405d;
+}
+
+.svg-inline--fa .fa-facebook-f .fa-w-9 {
+	color: white;
+}
+
+.svg-inline--fa .fa-facebook-f .fa-w-9:hover {
+	color: grey;
+}
+
+.container.margin_footer.custom_foot {
+	margin-top: 2em;
+}
+
+footer .link:hover {
+	color: grey;
+}
+
+/* MENU */
+
+
+/* Styling Responsive Navigation */
+
+.my-header-menu {
+	display: block;
+	text-align: center;
+}
+
+.my-header-menu li {
+	display: inline-block;
+}
+
+@media screen and (max-width: 750px) {
+	.my-header-menu li {
+		display: block;
+	}
+}
+
+/* Burger */
+
+.toggle-nav {
+	display: none !important;
+}
+
+@media screen and (max-width: 750px) {
+	.toggle-nav {
+		padding: 15px;
+		margin-left: 21em;
+		display: inline-block !important;
+		color: #8D7F68;
+		color: black;
+		transition: color linear 0.15s;
+	}
+
+	.toggle-nav:hover,
+	.toggle-nav.active {
+		text-decoration: none;
+		color: #8D7F68;
+	}
+
+}
+
+/* FOOTER MENU */
+
+.my-footer-menu {
+	color: white;
+}
